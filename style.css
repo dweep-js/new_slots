@@ -1,0 +1,108 @@
+/* Background & General Styling */
+body {
+    background-color: #48A6A7;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #2C3E50; /* Dark blue for better readability */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game Container */
+.game-container {
+    background: #FFFFFF; /* White background */
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+#gambling {
+    font-size: 80px;
+    text-align: center;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Slot Machine Display */
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 5rem;
+    background: #3498DB; /* Soft blue */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Each Slot Box */
+.slot {
+    width: 120px;
+    height: 120px;
+    background: #FDFAF6; /* Light cream */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #2C3E50;
+}
+
+/* Button Styling */
+#button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#play {
+    font-size: x-large;
+    background-color: #2ECC71; /* Soft green */
+    color: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#play:hover {
+    background-color: #27AE60; /* Darker green */
+    transform: translateY(-2px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Game State Message */
+#state {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 25px;
+    color: #2C3E50;
+    font-weight: 600;
+}
+
+/* Score & Multiplier */
+.stats {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.stats p {
+    background: #E4EFE7; /* Soft green */
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    color: #2C3E50;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
