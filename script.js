@@ -125,6 +125,7 @@ function endGame() {
     button.textContent = "🔄 Restart Game";
     button.disabled = false; // Ensure button is clickable
     button.style.display = "block"; // Show button in case it's hidden
+        button.style.margin = "20px auto"; // Ensure proper centering
     button.onclick = restartGame; // Assign restart function
 }
 
